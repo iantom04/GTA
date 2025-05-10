@@ -1,0 +1,9 @@
+﻿  main.cpp
+  Player.cpp
+C:\Users\Asus\Desktop\UNI\1r\2n SEMESTRE\PROGRAMACIÓ II\Pràctica GTA\GTA\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Player.h(8,14): error C3646: 'direccionesPlayer': especificador de invalidación desconocido
+  (compilando archivo de origen "Player.cpp")
+  
+C:\Users\Asus\Desktop\UNI\1r\2n SEMESTRE\PROGRAMACIÓ II\Pràctica GTA\GTA\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Player.h(8,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "Player.cpp")
+  
+  Generando código...
