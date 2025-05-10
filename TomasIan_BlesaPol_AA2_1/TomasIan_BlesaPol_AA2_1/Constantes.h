@@ -5,6 +5,13 @@ enum class Direcciones
 	UP, DOWN, LEFT, RIGHT
 };
 
+struct IslasConfig
+{
+	int numPeatones;
+	int peaje;
+	int maxDinero;
+};
+
 const int NUM_ISLAS = 3;
 const int WIDTH_VISTA = 15;
 const int HEIGHT_VISTA = 15;
