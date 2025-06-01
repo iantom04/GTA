@@ -1,5 +1,0 @@
-﻿  Mapa.cpp
-  main.cpp
-C:\Users\Asus\Downloads\ProvaGTAEnti\ProvaGTAEnti\main.cpp(360,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-  Generando código...
-  ProvaGTAEnti.vcxproj -> C:\Users\Asus\Downloads\ProvaGTAEnti\x64\Debug\ProvaGTAEnti.exe
