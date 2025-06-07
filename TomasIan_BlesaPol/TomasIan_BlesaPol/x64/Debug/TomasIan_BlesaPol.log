@@ -1,5 +1,0 @@
-﻿  main.cpp
-C:\Users\Asus\Desktop\UNI\1r\2n SEMESTRE\PROGRAMACIÓ II\Pràctica GTA\GTA\TomasIan_BlesaPol\TomasIan_BlesaPol\main.cpp(924,9): error C2360: la inicialización de 'dineroRecogido' se omite en la etiqueta 'case'
-      C:\Users\Asus\Desktop\UNI\1r\2n SEMESTRE\PROGRAMACIÓ II\Pràctica GTA\GTA\TomasIan_BlesaPol\TomasIan_BlesaPol\main.cpp(733,18):
-      vea la declaración de 'dineroRecogido'
-  
