@@ -1,4 +1,5 @@
 // GameManager.h
+#pragma once
 #include <vector>
 #include "Config.h"
 #include "Player.h"

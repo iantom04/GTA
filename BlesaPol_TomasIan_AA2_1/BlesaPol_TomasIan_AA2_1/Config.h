@@ -1,4 +1,5 @@
 // Config.h
+#pragma once
 #include <string>
 
 struct IslaConfig {

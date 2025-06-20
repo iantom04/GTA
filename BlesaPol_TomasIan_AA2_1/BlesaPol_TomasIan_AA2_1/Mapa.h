@@ -1,4 +1,5 @@
 // Mapa.h
+#pragma once
 #include <iostream>
 
 class Mapa {

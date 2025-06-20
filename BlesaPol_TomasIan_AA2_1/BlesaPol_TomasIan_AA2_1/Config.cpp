@@ -15,19 +15,19 @@ Configuracion cargarConfiguracion(const std::string& filename) {
 
     std::string linea;
 
-    // 1. Dimensiones del mapa
+   
     std::getline(file, linea);
     sscanf_s(linea.c_str(), "%d;%d;", &config.anchoMapa, &config.altoMapa);
 
-    // 2. Vida y ataque de CJ
+  
     std::getline(file, linea);
     sscanf_s(linea.c_str(), "%d;%d;", &config.vidaCJ, &config.ataqueCJ);
 
-    // 3. Costes de peaje
+    
     std::getline(file, linea);
     sscanf_s(linea.c_str(), "%d;%d;", &config.peaje1, &config.peaje2);
 
-    // 4. Los Santos
+   
     std::getline(file, linea);
     sscanf_s(linea.c_str(), "%d;%d;%d;%d;",
         &config.losSantos.numPeatones,
@@ -35,7 +35,7 @@ Configuracion cargarConfiguracion(const std::string& filename) {
         &config.losSantos.vidaPeaton,
         &config.losSantos.ataquePeaton);
 
-    // 5. San Fierro
+    
     std::getline(file, linea);
     sscanf_s(linea.c_str(), "%d;%d;%d;%d;",
         &config.sanFierro.numPeatones,
@@ -43,7 +43,7 @@ Configuracion cargarConfiguracion(const std::string& filename) {
         &config.sanFierro.vidaPeaton,
         &config.sanFierro.ataquePeaton);
 
-    // 6. Las Venturas
+    
     std::getline(file, linea);
     sscanf_s(linea.c_str(), "%d;%d;%d;%d;",
         &config.lasVenturas.numPeatones,

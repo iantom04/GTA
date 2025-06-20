@@ -18,10 +18,10 @@ void Walker::mover(int maxX, int maxY) {
     if (!vivo) return;
     int dx = 0, dy = 0;
     switch (direccion) {
-    case 0: dy = -1; break; // arriba
-    case 1: dy = 1;  break; // abajo
-    case 2: dx = -1; break; // izquierda
-    case 3: dx = 1;  break; // derecha
+    case 0: dy = -1; break; 
+    case 1: dy = 1;  break; 
+    case 2: dx = -1; break;
+    case 3: dx = 1;  break; 
     }
     int nx = x + dx;
     int ny = y + dy;
@@ -30,7 +30,7 @@ void Walker::mover(int maxX, int maxY) {
         y = ny;
     }
     else {
-        direccion = rand() % 4; // cambiar dirección si hay obstáculo
+        direccion = rand() % 4; 
     }
 }
 

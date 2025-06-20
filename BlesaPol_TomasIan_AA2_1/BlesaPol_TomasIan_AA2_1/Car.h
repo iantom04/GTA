@@ -1,10 +1,10 @@
 // Car.h
-
+#pragma once
 class Car {
 public:
     int x, y;
-    bool activo;  // true si CJ está dentro
-    bool disponible; // false si ya se usó y se salió
+    bool activo; 
+    bool disponible; 
 
     Car(int px, int py);
     void mover(int dx, int dy, int maxX, int maxY);

@@ -15,14 +15,14 @@ bool GameManager::esCasillaBloqueada(int x, int y) {
 GameManager::GameManager(const Configuracion& cfg)
     : config(cfg), cj(cfg.vidaCJ, cfg.ataqueCJ), mapa(cfg.altoMapa, cfg.anchoMapa), dinero(0),
     peaje1Pagado(false), peaje2Pagado(false), dentroCoche(false), boss(nullptr) {
-    // Generar peatones
+    
     for (int i = 0; i < config.losSantos.numPeatones; ++i)
         peatones.emplace_back(rand() % cfg.anchoMapa / 3, rand() % cfg.altoMapa, cfg.losSantos.vidaPeaton, cfg.losSantos.ataquePeaton, rand() % 2);
 
-    // A adir Big Smoke
+    
     boss = new BigSmoke(cfg.anchoMapa - 2, cfg.altoMapa / 2, cfg.lasVenturas.vidaPeaton * 2, cfg.lasVenturas.ataquePeaton * 2);
 
-    // Coches
+    
     int tercio = config.anchoMapa / 3;
 
     auto generarCoche = [&](int minX, int maxX) {
@@ -49,13 +49,13 @@ GameManager::GameManager(const Configuracion& cfg)
         if (casillaValida) coches.emplace_back(cx, cy);
         };
 
-    // Coche en Los Santos
+   
     generarCoche(0, tercio);
 
-    // Coche en San Fierro
+    
     generarCoche(tercio, tercio * 2);
 
-    // Coche en Las Venturas
+    
     generarCoche(tercio * 2, config.anchoMapa);
 
 }
@@ -94,10 +94,10 @@ void GameManager::procesarInput() {
     }
 
 
-    // ENTRAR O SALIR DEL COCHE CON 'E'
-    if (GetAsyncKeyState(0x45) & 0x8000) { // Tecla 'E'
+    
+    if (GetAsyncKeyState(0x45) & 0x8000) { 
         if (!dentroCoche) {
-            // Intentar entrar: CJ debe estar sobre un coche disponible
+  
             for (auto& car : coches) {
                 if (car.x == cj.x && car.y == cj.y && car.disponible) {
                     dentroCoche = true;
@@ -107,12 +107,12 @@ void GameManager::procesarInput() {
             }
         }
         else {
-            // Salir del coche: CJ se queda en su posici n actual
+            
             dentroCoche = false;
             for (auto& car : coches)
                 if (car.activo) car.activo = false;
         }
-        Sleep(200); // peque a pausa para evitar m ltiples lecturas de tecla
+        Sleep(200); 
     }
 
     if (GetAsyncKeyState(VK_SPACE)) {
@@ -132,7 +132,7 @@ void GameManager::procesarInput() {
             peaje1Pagado = true;
         }
         else {
-            cj.vida = 0; // arrestado por la polic a
+            cj.vida = 0;
         }
     }
     else if (cj.x == tercio * 2 && cj.y == config.altoMapa / 2 && !peaje2Pagado) {
@@ -141,7 +141,7 @@ void GameManager::procesarInput() {
             peaje2Pagado = true;
         }
         else {
-            cj.vida = 0; // arrestado por la polic a
+            cj.vida = 0; 
         }
     }
 }
@@ -149,7 +149,7 @@ void GameManager::procesarInput() {
 void GameManager::actualizar() {
     for (auto& w : peatones) {
         if (!w.vivo) {
-            // Determinar en qu  isla reaparecer
+           
             int tercio = config.anchoMapa / 3;
             int minX = 0, maxX = tercio;
             IslaConfig isla = config.losSantos;
@@ -165,14 +165,14 @@ void GameManager::actualizar() {
                 isla = config.lasVenturas;
             }
 
-            // Generar nueva posici n v lida
+           
             int wx, wy;
             do {
                 wx = minX + rand() % (maxX - minX);
                 wy = rand() % config.altoMapa;
             } while (esCasillaBloqueada(wx, wy));
 
-            // Reiniciar atributos del peat n
+            
             w.x = wx;
             w.y = wy;
             w.vivo = true;
@@ -180,7 +180,7 @@ void GameManager::actualizar() {
             w.ataque = isla.ataquePeaton;
             w.agresivo = rand() % 2;
             w.direccion = rand() % 4;
-            continue; // saltar movimiento esta iteraci n
+            continue; 
         }
 
         if (abs(w.x - cj.x) <= 1 && abs(w.y - cj.y) <= 1) continue;
@@ -207,7 +207,7 @@ void GameManager::actualizar() {
 void GameManager::renderizar() {
     mapa.limpiar();
 
-    // Dibujar bordes del mapa
+    
     for (int i = 0; i < config.anchoMapa; ++i) {
         mapa.colocarElemento(i, 0, 'X');
         mapa.colocarElemento(i, config.altoMapa - 1, 'X');
@@ -217,13 +217,13 @@ void GameManager::renderizar() {
         mapa.colocarElemento(config.anchoMapa - 1, j, 'X');
     }
 
-    // Dibujar l neas de peaje entre islas
+    
     int tercio = config.anchoMapa / 3;
     for (int y = 0; y < config.altoMapa; ++y) {
         mapa.colocarElemento(tercio, y, 'T');
         mapa.colocarElemento(tercio * 2, y, 'T');
     }
-    // Casillas vac as como "puente"
+    
     mapa.colocarElemento(tercio, config.altoMapa / 2, ' ');
     mapa.colocarElemento(tercio * 2, config.altoMapa / 2, ' ');
 
