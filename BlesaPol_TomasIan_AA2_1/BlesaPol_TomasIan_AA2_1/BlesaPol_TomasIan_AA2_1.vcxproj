@@ -127,26 +127,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\BigSmoke.cpp" />
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Car.cpp" />
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Config.cpp" />
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\GameManager.cpp" />
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\main.cpp" />
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Mapa.cpp" />
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Player.cpp" />
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Walker.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\BigSmoke.h" />
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Car.h" />
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Config.h" />
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\GameManager.h" />
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Mapa.h" />
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Player.h" />
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Walker.h" />
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\config.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BigSmoke.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Walker.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Mapa.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BigSmoke.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mapa.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Walker.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

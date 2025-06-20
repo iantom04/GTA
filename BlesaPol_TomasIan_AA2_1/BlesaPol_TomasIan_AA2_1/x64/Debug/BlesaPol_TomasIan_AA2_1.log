@@ -1,4 +1,111 @@
-﻿  GameManager.cpp
+﻿  BigSmoke.cpp
+  Car.cpp
+  Config.cpp
+  GameManager.cpp
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,14): error C2011: 'Walker': nueva definición del tipo 'class'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\BigSmoke.h(4,25): error C2504: 'Walker': clase base sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(40,21): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(40,34): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(120,21): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(120,45): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(120,65): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(121,17): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(122,22): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(125,23): error C2039: "x": no es un miembro de "BigSmoke"
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\BigSmoke.h(4,7): message : vea la declaración de 'BigSmoke'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(125,51): error C2039: "y": no es un miembro de "BigSmoke"
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\BigSmoke.h(4,7): message : vea la declaración de 'BigSmoke'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(125,75): error C2039: "vivo": no es un miembro de "BigSmoke"
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\BigSmoke.h(4,7): message : vea la declaración de 'BigSmoke'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(126,19): error C2039: "recibirAtaque": no es un miembro de "BigSmoke"
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\BigSmoke.h(4,7): message : vea la declaración de 'BigSmoke'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(151,14): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(176,13): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(177,13): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(178,13): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(179,13): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(180,13): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(181,13): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(182,13): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(186,17): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(186,41): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(189,17): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(195,18): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(196,18): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(198,13): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(201,13): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(233,13): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(234,34): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(234,39): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(234,44): error C2027: uso del tipo 'Walker' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(234,17): error C2660: 'Mapa::colocarElemento': la función no acepta 1 argumentos
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Mapa.h(12,10): message : vea la declaración de 'Mapa::colocarElemento'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(234,17): message : al hacer coincidir la lista de argumentos '()'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(240,15): error C2039: "vivo": no es un miembro de "BigSmoke"
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\BigSmoke.h(4,7): message : vea la declaración de 'BigSmoke'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(240,48): error C2039: "x": no es un miembro de "BigSmoke"
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\BigSmoke.h(4,7): message : vea la declaración de 'BigSmoke'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(240,57): error C2039: "y": no es un miembro de "BigSmoke"
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\BigSmoke.h(4,7): message : vea la declaración de 'BigSmoke'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(240,66): error C2039: "simbolo": no es un miembro de "BigSmoke"
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\BigSmoke.h(4,7): message : vea la declaración de 'BigSmoke'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(240,25): error C2660: 'Mapa::colocarElemento': la función no acepta 1 argumentos
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Mapa.h(12,10): message : vea la declaración de 'Mapa::colocarElemento'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(240,25): message : al hacer coincidir la lista de argumentos '()'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.cpp(257,36): error C2039: "vivo": no es un miembro de "BigSmoke"
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\BigSmoke.h(4,7): message : vea la declaración de 'BigSmoke'
   main.cpp
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Config.h(4,19): error C2011: 'IslaConfig': nueva definición del tipo 'struct'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Config.h(4,8): message : vea la declaración de 'IslaConfig'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Config.h(11,22): error C2011: 'Configuracion': nueva definición del tipo 'struct'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Config.h(11,8): message : vea la declaración de 'Configuracion'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,14): error C2011: 'Walker': nueva definición del tipo 'class'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Walker.h(4,7): message : vea la declaración de 'Walker'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\BigSmoke.h(4,25): error C2504: 'Walker': clase base sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.h(12,19): error C2079: 'GameManager::config' utiliza struct 'Configuracion' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\main.cpp(19,19): error C2079: 'config' utiliza struct 'Configuracion' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\main.cpp(19,28): error C2027: uso del tipo 'Configuracion' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Config.h(11,8): message : vea la declaración de 'Configuracion'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\main.cpp(19,26): error C2027: uso del tipo 'Configuracion' sin definir
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Config.h(11,8): message : vea la declaración de 'Configuracion'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\main.cpp(20,21): error C2665: 'GameManager::GameManager':ninguna función sobrecargada pudo convertir todos los tipos de argumento
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.h(21,5): message : puede ser 'GameManager::GameManager(const GameManager &)'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\main.cpp(20,21): message : 'GameManager::GameManager(const GameManager &)': el argumento 1 no puede convertirse de 'int' a 'const GameManager &'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\main.cpp(20,22): message : Razón: no se puede realizar la conversión de 'int' a 'const GameManager'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\GameManager.h(27,5): message : o       'GameManager::GameManager(const Configuracion &)'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\main.cpp(20,21): message : 'GameManager::GameManager(const Configuracion &)': el argumento 1 no puede convertirse de 'int' a 'const Configuracion &'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\main.cpp(20,22): message : Razón: no se puede realizar la conversión de 'int' a 'const Configuracion'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\main.cpp(20,22): message : Uso del tipo no definido 'Configuracion'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\Config.h(11,8): message : vea la declaración de 'Configuracion'
+C:\Users\Usuario\Desktop\Local_Projecte\TomasIan_BlesaPol_AA2\BlesaPol_TomasIan_AA2_1\BlesaPol_TomasIan_AA2_1\main.cpp(20,21): message : al hacer coincidir la lista de argumentos '(int)'
+  Mapa.cpp
+  Player.cpp
+  Walker.cpp
   Generando código...
-  BlesaPol_TomasIan_AA2_1.vcxproj -> C:\Users\Asus\Desktop\BlesaPol_TomasIan_AA2_1\x64\Debug\BlesaPol_TomasIan_AA2_1.exe

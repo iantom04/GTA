@@ -15,55 +15,55 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\BigSmoke.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Car.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Config.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\GameManager.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\main.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Mapa.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Player.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Walker.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\BigSmoke.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Car.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Config.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\GameManager.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Mapa.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Player.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\Walker.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="..\..\TomasIan_BlesaPol_AA2_1\TomasIan_BlesaPol_AA2_1\config.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BigSmoke.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapa.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Walker.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BigSmoke.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapa.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Walker.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
